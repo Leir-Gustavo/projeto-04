@@ -1,0 +1,100 @@
+.container-sign-in {
+    background-color: #EEE;
+    min-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login h1 {
+    color: var(--text-primary, rgba(0, 0, 0, 0.87));
+
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-login {
+    width: 492px;
+    height: 662px;
+
+    border-radius: 16px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 28px 5px rgba(0, 0, 0, 0.12), 0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 8px 9px -5px rgba(0, 0, 0, 0.20);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 80px 86px 88px 86px;
+}
+
+.form-body {
+    margin: 88px 0 40px 0;
+}
+
+.form-body input {
+
+    width: 400px;
+    height: 48px;
+
+
+    border: none;
+
+    color: var(--text-secondary, rgba(0, 0, 0, 0.54));
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+
+    margin-bottom: 48px;
+    padding-left: 4px;
+
+}
+
+.form-body span {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.form-login button {
+    width: 88px;
+    height: 36px;
+    border: none;
+    display: flex;
+    padding: 6px 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #007DFF;
+    cursor: pointer;
+
+    color: var(--primary-contrast-text, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    margin-bottom: 32px;
+}
+
+a {
+    color: #007DFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+
+}
